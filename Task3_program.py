@@ -1,7 +1,8 @@
 from Task3_module_compare import compare
-pairs1 = [
-    ('стол', 'стул'),
-    ('блокнот', 'блок'),
-    ]
-for a, b in pairs1:
-    print(a, b, compare(a, b))
+
+cities = ['Москва','Пермь', 'Пенза', 'Тверь']
+y = 'Пермь'
+
+if __name__ == '__main__':
+    for x in cities:
+        print(x, y, compare(x, y))
