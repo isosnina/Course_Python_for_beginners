@@ -8,8 +8,7 @@ def compare (S1, S2):
 pairs = [
     ('kitten', 'sitting'),
     ('saturday', 'sunday'),
-    ('море', 'гора'),
-    ('компьютер', 'компьютеры')
+    ('море', 'гора')    
     ]
 
 if __name__ == '__main__':    
