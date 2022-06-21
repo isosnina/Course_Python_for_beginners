@@ -5,12 +5,13 @@ def compare (S1, S2):
         count += S2.count(ngram)
     return count / max(len(S1), len(S2))
 
-if __name__ == '__main__':
-    pairs = [
+pairs = [
     ('kitten', 'sitting'),
     ('saturday', 'sunday'),
     ('море', 'гора'),
     ('компьютер', 'компьютеры')
     ]
-    for s, t in pairs:
-        print(s, t, compare(s, t))
+
+if __name__ == '__main__':    
+    for a, b in pairs:
+        print(a, b, compare(a, b))
